@@ -8,7 +8,7 @@ import re
 rstr = r"[\/\\\:\*\?\"\<\>\|]"
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
-    'Cookie': 'did=web_d9b1b11c6fa6404a9bd20f4f09441c40; didv=1629200954000; clientid=3; client_key=65890b29; kpn=GAME_ZONE; soft_did=1619580708547; kuaishou.live.bfb1s=9b8f70844293bed778aade6e0a8f9942; userId=97328167; userId=97328167; kuaishou.live.web_st=ChRrdWFpc2hvdS5saXZlLndlYi5zdBKgASM2p8Ps1XwSMzr3xx64e0-SMw4QEDwe3IcrT1BK_BWfslbszg5uWLRHyMiONKxSKCTarAtx167cWl3E42L_oSoEq7M5AEzWUnj4ru285GeX2tS1ayaCPz2JjCRt1mmOk94XlJePJpDAuOdKKj3HtiIN1Knj5Pdy_ra0qgA1IBtjYpYq4ZWsMy-MvfROlCviNMSroJ4L3Qw3RlWtFGgmD_8aEnkpvegnDUJtgj96dZ26lsX47iIgOjpintLTdcyh3XjSrPl-NXdLrbA3837LH5n-2GSaQR0oBTAB; kuaishou.live.web_ph=526be5bf092f06b5bdee8f93184eb2376c71',
+    'Cookie': '自行填写',
 }
 print('获取作者的主页链接请到:https://live.kuaishou.com/,搜索你要喜欢的作者，打开他的主页将链接复制到本程序。')
 author_url = input('请输入你要下载的作者的链接:')
